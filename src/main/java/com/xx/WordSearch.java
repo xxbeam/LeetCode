@@ -34,13 +34,4 @@ public class WordSearch {
         }
         return false;
     }
-
-    public static void main(String[] args) {
-        char board[][] = {{'A','B','C','E'},{'S','F','E','S'},{'A','D','E','E'}};
-        System.out.println(new WordSearch().exist(board,"ABCESEEEFS"));
-
-
-        char a = 'B';
-        System.out.println(a+=256);
-    }
 }
